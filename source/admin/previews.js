@@ -68,10 +68,13 @@ const NavigationPreview = ({ entry }) => {
   const data = entry.get('data').toJS()
   return (
     <header className="header-primary">
-      <div className="logo">
-        <a href="/">
-          <img src="/images/logo.svg" alt="Kaldi"/>
-        </a>
+      // <div className="logo">
+      //   <a href="/">
+      //     <img src="/images/logo.svg" alt="Kaldi"/>
+      //   </a>
+      // </div>
+      <div>
+        <h1>Groovy Thrift Finds</h1>
       </div>
       <a className="nav-button">
         <img src="/images/nav-open.svg" className="open"/>
